@@ -148,6 +148,32 @@ body {
     margin: 0 auto;
 }
 
-.review p {
+#reviews {
+    margin: 80px 70px;
+}
+.rP {
     color: #0E0E0E80;
+}
+.review {
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(142, 142, 142, 0.1);
+    border-radius: 16px;
+}
+.review {
+    background-image: url(./images/star-reviews.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    /* background-position: right bottom; */
+    /* background-position-x: right;
+    background-position-y: bottom; */
+    /* background-position: right 50px bottom 60px; */
+    background-position: 97% 75%;
+}
+.rN {
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
