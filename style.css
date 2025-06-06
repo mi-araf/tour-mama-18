@@ -1,0 +1,153 @@
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+    border-radius: 30px;
+    border: 2px solid #872BFF;
+    background-color: #872BFF;
+    color: white;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+#btn-2 {
+    margin-left: 2.5%;
+    border-radius: 30px;
+    border: 2px solid #872BFF;
+    background-color: whitesmoke;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#ffffff, #ebdeff);
+}
+
+#banner {
+    border: 2px solid #872BFF17;
+    border-radius: 40px;
+    background-image: url(./images/hero-bg.png);
+    margin: 100px auto 110px auto;
+    width: 87%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content * {
+    margin-bottom: 36px;
+}
+.banner-content h1 {
+    font-weight: bold;
+    font-size: 67px;
+}
+.banner-content span {
+    color: #F411CF;
+}
+.banner-content p {
+    font-weight: medium;
+    color: #A8A8A8;
+    font-size: 18px;
+}
+
+.banner-image img {
+    width: 550px;
+}
+
+#service {
+    margin: 0 80px 110px 80px;
+}
+.title {
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+.title h4 {
+    color: #F411CF;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.title h2 {
+    word-spacing: 5px;
+    padding-bottom: 23px;
+    font-size: 35px;
+}
+.service-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.card {
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+}
+.card img {
+    padding: 36px 0;
+    width: 52px;
+}
+.card h3 {
+    padding-bottom: 18px;
+}
+.card p {
+    color: #A8A8A8;
+    padding: 5px 80px 55px 80px;
+}
+
+.spot-content {
+    background-color: white;
+    margin: 0px 70px;
+    border-radius: 24px;
+    padding: 50px;
+
+    display: flex;
+    gap: 25px;
+}
+.spot-area {
+    padding: 0 30px;
+}
+#f {
+    border-radius: 24px;
+}
+.spot-area h3 {
+    font-size: 32px;
+    word-spacing: 6px;
+    margin-bottom: 30px;
+}
+.spot-area p {
+    color: #0E0E0E70;
+    font-size: 16px;
+    margin: 15px 0 30px 0;
+}
+
+#countries {
+    margin: 100px 70px;
+}
+.countries-names h1 {
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 450;
+    border-radius: 16px;
+    padding: 40px;
+    letter-spacing: 2px;
+}
+.countries-names {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 55px;
+}
+#countries button {
+    text-align: center;
+    display: block;     /* use it so that it can come to horizontal after margin given */
+    margin: 0 auto;
+}
+
+.review p {
+    color: #0E0E0E80;
+}
